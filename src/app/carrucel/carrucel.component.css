@@ -1,0 +1,21 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  flex: 1;
+  transition: transform 0.5s ease;
+}
+
+img {
+  width: 800px;
+  height: 600px;
+}
